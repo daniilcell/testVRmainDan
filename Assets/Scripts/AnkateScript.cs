@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class AnkateScript : MonoBehaviour
 {
@@ -14,11 +15,12 @@ public class AnkateScript : MonoBehaviour
         nameText.text = nameInputField.text;
     }
 
-// https://www.google.ru/
+
     public void OnButtonUserAge()
     {
         string ageString = ageInputField.text;
-        int ageInt = int.Parse(ageString)
-
+        int ageInt = int.Parse(ageString);
+        System.DateTime dt = System.DateTime.Now;
+        dt.AddYears(DateTime.)
     }
 }
