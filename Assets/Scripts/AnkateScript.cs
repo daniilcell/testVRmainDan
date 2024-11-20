@@ -65,4 +65,5 @@ public class AnkateScript : MonoBehaviour
         } else {
             ageText.text = "This shouldn't be empty";
         }
+    }
 }

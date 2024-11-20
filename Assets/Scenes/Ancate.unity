@@ -3690,7 +3690,6 @@ GameObject:
   - component: {fileID: 1484036557}
   - component: {fileID: 1484036556}
   - component: {fileID: 1484036555}
-  - component: {fileID: 1484036558}
   m_Layer: 5
   m_Name: CenterCalc
   m_TagString: Untagged
@@ -3781,22 +3780,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484036553}
   m_CullTransparentMesh: 1
---- !u!114 &1484036558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484036553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cd4c3ed71f7f894cb6917208071cb4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameInputField: {fileID: 0}
-  nameText: {fileID: 0}
-  ageInputField: {fileID: 0}
-  ageText: {fileID: 0}
 --- !u!1 &1610855578
 GameObject:
   m_ObjectHideFlags: 0
@@ -4023,6 +4006,8 @@ MonoBehaviour:
   nameText: {fileID: 1314590529}
   ageInputField: {fileID: 1636625403}
   ageText: {fileID: 443231352}
+  birthInputField: {fileID: 717489779}
+  ageOldText: {fileID: 2078033231}
 --- !u!1 &1636625401
 GameObject:
   m_ObjectHideFlags: 0
