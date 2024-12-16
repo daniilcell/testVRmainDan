@@ -12,17 +12,17 @@ public class GuesserScript : MonoBehaviour
         RandomNumber();
     }
     private void RandomNumber() {
-        rand = Random.Range(0, 101);
+        rand = Random.Range(-1, 101);
     }
     public void OnButton() {
         int userNumber = ReadInt(inputField0);
         if (userNumber == rand) {
-            userOutText.text = "You are right! Restarting... ";
+            userOutText.text = "Победа! Загадываю новое число... ";
             RandomNumber();
         } else if (rand < userNumber) {
-            userOutText.text = "Number is smaller";
+            userOutText.text = "Протокол не совпадает: интервал меньше протокола";
         } else {
-            userOutText.text = "Number is bigger";
+            userOutText.text = "Протокол не совпадает: интервал больше протокола";
         }
     }
     private int ReadInt(TMP_InputField inputField){
