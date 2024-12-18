@@ -17,12 +17,12 @@ public class GuesserScript : MonoBehaviour
     public void OnButton() {
         int userNumber = ReadInt(inputField0);
         if (userNumber == rand) {
-            userOutText.text = "Победа! Загадываю новое число... ";
+            userOutText.text = "РџРѕР±РµРґР°! Р—Р°РіР°РґС‹РІР°СЋ РЅРѕРІРѕРµ С‡РёСЃР»Рѕ... ";
             RandomNumber();
         } else if (rand < userNumber) {
-            userOutText.text = "Протокол не совпадает: интервал меньше протокола";
+            userOutText.text = "РџСЂРѕС‚РѕРєРѕР» РЅРµ СЃРѕРІРїР°РґР°РµС‚: РёРЅС‚РµСЂРІР°Р» РјРµРЅСЊС€Рµ РїСЂРѕС‚РѕРєРѕР»Р°";
         } else {
-            userOutText.text = "Протокол не совпадает: интервал больше протокола";
+            userOutText.text = "РџСЂРѕС‚РѕРєРѕР» РЅРµ СЃРѕРІРїР°РґР°РµС‚: РёРЅС‚РµСЂРІР°Р» Р±РѕР»СЊС€Рµ РїСЂРѕС‚РѕРєРѕР»Р°";
         }
     }
     private int ReadInt(TMP_InputField inputField){
