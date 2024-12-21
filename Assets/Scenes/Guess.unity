@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputField0: {fileID: 637564495}
-  userOutText: {fileID: 0}
+  userOutText: {fileID: 615630646}
 --- !u!1 &948130261
 GameObject:
   m_ObjectHideFlags: 0

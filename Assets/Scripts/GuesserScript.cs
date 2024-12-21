@@ -20,9 +20,9 @@ public class GuesserScript : MonoBehaviour
             userOutText.text = "Победа! Загадываю новое число... ";
             RandomNumber();
         } else if (rand < userNumber) {
-            userOutText.text = "Протокол не совпадает: интервал меньше протокола";
+            userOutText.text = "Протокол не совпадает: число меньше протокола";
         } else {
-            userOutText.text = "Протокол не совпадает: интервал больше протокола";
+            userOutText.text = "Протокол не совпадает: число больше протокола";
         }
     }
     private int ReadInt(TMP_InputField inputField){
